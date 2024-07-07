@@ -53,7 +53,7 @@ const Navbar = () => {
   };
 
   const handleLogout = () => {
-    signOut({ callbackUrl: '/', redirect: true });
+    signOut({ callbackUrl: "/", redirect: true });
   };
 
   return (
@@ -87,9 +87,9 @@ const Navbar = () => {
                       </Link>
                       <nav className="hidden sm:ml-6 sm:flex flex-grow justify-center items-center">
                         {/* <NavLink href="/shop">Shop</NavLink> */}
-                        {session && (
+                        {/* {session && (
                           <NavLink href="/studio-entry">Studio</NavLink>
-                        )}
+                        )} */}
                         {/* <NavLink href="/template">Template</NavLink> */}
                         {/* <NavLink href="/demo">Demo</NavLink> */}
                         {/* <NavLink href="/test">Test</NavLink> */}
